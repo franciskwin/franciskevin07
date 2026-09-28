@@ -107,6 +107,17 @@
     });
   }
 
+  // Accordion toggle logic for Products & Achievements
+  var accordionHeaders = document.querySelectorAll(".accordion-header");
+  accordionHeaders.forEach(function (header) {
+    header.addEventListener("click", function () {
+      var item = header.closest(".accordion-item");
+      var isOpen = item.classList.contains("is-open");
+      item.classList.toggle("is-open");
+      header.setAttribute("aria-expanded", !isOpen ? "true" : "false");
+    });
+  });
+
   window.addEventListener("scroll", function () {
     onScroll();
     setActiveNav();

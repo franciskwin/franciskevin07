@@ -1,6 +1,6 @@
 # Online Resume — Francis Kevin Jothi G
 
-Personal online resume and portfolio website for **Francis Kevin Jothi G**, a Full-Stack Developer specializing in Angular, PHP, Drupal, Adobe Experience Manager (AEM), and AI-powered product delivery.
+Personal online resume and portfolio website for **Francis Kevin Jothi G**, a Full-Stack Developer specializing in React JS, Angular, Python, PHP, Drupal, Adobe Experience Manager (AEM), Gen AI, RAG, and enterprise products.
 
 This is a **static HTML / CSS / JavaScript** website. It does not use React, Next.js, Angular, or npm build tools.
 
@@ -86,7 +86,7 @@ Vercel serves `index.html` automatically. A `vercel.json` file is **not required
 After deploy, update Open Graph URLs in `index.html` to your production domain if you want correct social previews:
 
 ```html
-<meta property="og:image" content="https://YOUR-PROJECT.vercel.app/images/franciskevin.png">
+<meta property="og:image" content="https://franciskevin07.vercel.app/images/blog-share.png">
 ```
 
 ## Contact Form
